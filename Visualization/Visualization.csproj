@@ -50,11 +50,23 @@
     <Compile Include="buble_sort.Designer.cs">
       <DependentUpon>buble_sort.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="categories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="categories.Designer.cs">
+      <DependentUpon>categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insert_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insert_list.Designer.cs">
+      <DependentUpon>insert_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sorting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sorting.Designer.cs">
+      <DependentUpon>sorting.cs</DependentUpon>
     </Compile>
     <Compile Include="insertion_sort.cs">
       <SubType>UserControl</SubType>
@@ -70,11 +82,20 @@
     <Compile Include="selection_sort.Designer.cs">
       <DependentUpon>selection_sort.cs</DependentUpon>
     </Compile>
+    <Compile Include="user_control_sorting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <EmbeddedResource Include="buble_sort.resx">
       <DependentUpon>buble_sort.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="categories.resx">
+      <DependentUpon>categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insert_list.resx">
+      <DependentUpon>insert_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sorting.resx">
+      <DependentUpon>sorting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="insertion_sort.resx">
       <DependentUpon>insertion_sort.cs</DependentUpon>
