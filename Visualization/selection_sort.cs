@@ -11,15 +11,15 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class selection_sort : user_control_sorting
+    public partial class selection_sort : user_control_need
     {
         public static bool is_run = false, current = false;
 
         public selection_sort(List<int> lst)
         {
             InitializeComponent();
-            this.Size = new Size(1190, 377);
-            list = lst;
+            this.Size = new Size(1190, 377); is_run = false;
+            for (int j = 0; j < lst.Count; j++) list.Add(lst[j]);
             draw_elements();
         }
 
@@ -32,7 +32,7 @@ namespace Visualization
 
         private void update()
         {
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < list.Count && is_run; i++)
             {
                 int min_idx = i, x = list[i];
                 lst_bx[i].BackColor = Color.Gold;

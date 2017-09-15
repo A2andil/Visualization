@@ -82,7 +82,7 @@
     <Compile Include="selection_sort.Designer.cs">
       <DependentUpon>selection_sort.cs</DependentUpon>
     </Compile>
-    <Compile Include="user_control_sorting.cs">
+    <Compile Include="user_control_need.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <EmbeddedResource Include="buble_sort.resx">

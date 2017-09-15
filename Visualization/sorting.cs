@@ -26,6 +26,9 @@ namespace Visualization
         private void btn_close_Click(object sender, EventArgs e)
         {
             if (current_cat != null) current_cat.Show();
+            insertion_sort.is_run = false;
+            buble_sort.is_run = false;
+            selection_sort.is_run = false;
             Close();
         }
         public void insertion(List<int> lst)
@@ -92,7 +95,7 @@ namespace Visualization
 
         private void period_ValueChanged(object sender, EventArgs e)
         {
-            user_control_sorting.period = int.Parse(period.Value.ToString());
+            user_control_need.period = int.Parse(period.Value.ToString());
         }
 
         private void button1_Click(object sender, EventArgs e)

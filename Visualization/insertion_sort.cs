@@ -11,7 +11,7 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class insertion_sort : user_control_sorting
+    public partial class insertion_sort : user_control_need
 
     {
         public static bool is_run = false, current = false;
@@ -19,8 +19,8 @@ namespace Visualization
         public insertion_sort(List<int> lst)
         {
             InitializeComponent();
-            this.Size = new Size(1190, 377);
-            list = lst;
+            this.Size = new Size(1190, 377); is_run = false;
+            for (int j = 0; j < lst.Count; j++) list.Add(lst[j]);
             draw_elements();
         }
 
@@ -34,7 +34,7 @@ namespace Visualization
         private void update()
         {
             lst_bx[0].BackColor = Color.Green;
-            for (int i = 1; i < list.Count; i++)
+            for (int i = 1; i < list.Count && is_run; i++)
             {
                 lst_bx[i].BackColor = Color.Green;
                 int x = list[i], j = i - 1;

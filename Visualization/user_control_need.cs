@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Visualization
 {
-    public class user_control_sorting : UserControl
+    public class user_control_need : UserControl
     {
-        public List<int> list = null;
+        public List<int> list = new List<int>();
         public List<TextBox> lst_bx = new List<TextBox>();
         public static int period = 100;
         public Thread thrd = null;

@@ -11,15 +11,15 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class buble_sort : user_control_sorting
+    public partial class buble_sort : user_control_need
     {
         public static bool is_run = false, current = false;
 
         public buble_sort(List<int> lst)
         {
             InitializeComponent();
-            this.Size = new Size(1190, 377);
-            list = lst;
+            this.Size = new Size(1190, 377); is_run = false;
+            for (int j = 0; j < lst.Count; j++) list.Add(lst[j]);
             draw_elements();
         }
         public void start()
@@ -56,7 +56,7 @@ namespace Visualization
                 }
                 lst_bx[z].BackColor = Color.Green;
                 z--;
-            } while (swap);
+            } while (swap && is_run);
             Thread.Sleep(period);
             for (int i = z; i >= 0; i--)
                 lst_bx[i].BackColor = Color.Green;

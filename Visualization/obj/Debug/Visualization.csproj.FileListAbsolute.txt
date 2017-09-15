@@ -12,3 +12,17 @@ F:\Runtime\Visualization\Visualization\obj\Debug\Visualization.csprojResolveAsse
 F:\Runtime\Visualization\Visualization\obj\Debug\Visualization.categories.resources
 F:\Runtime\Visualization\Visualization\obj\Debug\Visualization.sorting.resources
 F:\Runtime\Visualization\Visualization\obj\Debug\Visualization.insert_list.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\bin\Debug\Visualization.exe.config
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.exe
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.pdb
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\bin\Debug\Visualization.exe
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\bin\Debug\Visualization.pdb
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.csprojResolveAssemblyReference.cache
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.buble_sort.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.categories.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.insert_list.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.sorting.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.insertion_sort.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.Properties.Resources.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.selection_sort.resources
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.csproj.GenerateResource.Cache
