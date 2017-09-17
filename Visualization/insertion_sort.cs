@@ -39,18 +39,20 @@ namespace Visualization
                 lst_bx[i].BackColor = Color.Green;
                 int x = list[i], j = i - 1;
                 TextBox bx = lst_bx[i];
+                lst_bx[i].BackColor = Color.Orange;
                 while (j >= 0 && x < list[j])
-                {
+                { 
+                    Thread.Sleep(period);
                     list[j + 1] = list[j];
                     lst_bx[j + 1] = lst_bx[j];
                     lst_bx[j + 1].Location = new Point((j + 1) * 45 + 5, lst_bx[j + 1].Location.Y);
                     j = j - 1;
-                    Thread.Sleep(period);
                 }
                 list[j + 1] = x;
                 lst_bx[j + 1] = bx;
                 lst_bx[j + 1].Location = new Point((j + 1) * 45 + 5, lst_bx[j + 1].Location.Y);
                 Thread.Sleep(period);
+                bx.BackColor = Color.Green;
             }
             is_run = false;
         }

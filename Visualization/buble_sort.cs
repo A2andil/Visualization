@@ -38,6 +38,13 @@ namespace Visualization
                 swap = false;
                 for (int j = 0; j < z; j++)
                 {
+                    if (j == 0)
+                    {
+                        lst_bx[0].BackColor = Color.Orange;
+                        Thread.Sleep(period);
+                        lst_bx[0].BackColor = Color.Red;
+                    }
+                    int idx = j + 1;
                     if (list[j] > list[j + 1])
                     {
                         int x = list[j], j_x = lst_bx[j].Location.X, j_xp = lst_bx[j + 1].Location.X;
@@ -50,9 +57,9 @@ namespace Visualization
                         lst_bx[j].Location = new Point(j_x, lst_bx[j].Location.Y);
                         swap = true;
                     }
-                    lst_bx[j].BackColor = Color.Orange;
+                    lst_bx[idx].BackColor = Color.Orange;
                     Thread.Sleep(period);
-                    lst_bx[j].BackColor = Color.Red;
+                    lst_bx[idx].BackColor = Color.Red;
                 }
                 lst_bx[z].BackColor = Color.Green;
                 z--;

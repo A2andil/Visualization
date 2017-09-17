@@ -62,6 +62,12 @@
     <Compile Include="insert_list.Designer.cs">
       <DependentUpon>insert_list.cs</DependentUpon>
     </Compile>
+    <Compile Include="linear_search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="linear_search.Designer.cs">
+      <DependentUpon>linear_search.cs</DependentUpon>
+    </Compile>
     <Compile Include="sorting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="insert_list.resx">
       <DependentUpon>insert_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linear_search.resx">
+      <DependentUpon>linear_search.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sorting.resx">
       <DependentUpon>sorting.cs</DependentUpon>

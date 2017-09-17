@@ -26,3 +26,4 @@ C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Vis
 C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.Properties.Resources.resources
 C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.selection_sort.resources
 C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.csproj.GenerateResource.Cache
+C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Debug\Visualization.linear_search.resources
