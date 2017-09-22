@@ -73,7 +73,7 @@ namespace Visualization
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            period.Value = user_control_need.period;
         }
 
         List<int> shuffle()
