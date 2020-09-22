@@ -4,4 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Algorithms\Math\" />
+    <Folder Include="Algorithms\DynamicProgramming\" />
+    <Folder Include="Algorithms\Graphs\" />
+    <Folder Include="Algorithms\DataStructures\" />
+    <Folder Include="Algorithms\Geometry\" />
+    <Folder Include="Algorithms\Sorting\" />
+    <Folder Include="Algorithms\Searching\" />
+    <Folder Include="Forms\" />
+  </ItemGroup>
+
 </Project>

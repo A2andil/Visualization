@@ -15,6 +15,7 @@ namespace Visualization
     {
         public static bool is_run = false, current = false;
         public int key = 0; 
+
         public linear_search(List<int> lst, int key)
         {
             InitializeComponent();
