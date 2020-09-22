@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualization", "Visualization\Visualization.csproj", "{7A1D7AD2-26A6-4B13-BA94-E8C147453088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{29E5F760-A4F1-464A-A58A-2FC546871125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{0F48C0F7-9822-4B2A-B776-C47637797FB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{7A1D7AD2-26A6-4B13-BA94-E8C147453088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A1D7AD2-26A6-4B13-BA94-E8C147453088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A1D7AD2-26A6-4B13-BA94-E8C147453088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E5F760-A4F1-464A-A58A-2FC546871125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E5F760-A4F1-464A-A58A-2FC546871125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E5F760-A4F1-464A-A58A-2FC546871125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E5F760-A4F1-464A-A58A-2FC546871125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F48C0F7-9822-4B2A-B776-C47637797FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F48C0F7-9822-4B2A-B776-C47637797FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F48C0F7-9822-4B2A-B776-C47637797FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F48C0F7-9822-4B2A-B776-C47637797FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20C9B9A5-A553-48EE-80C6-8180A522FABD}
 	EndGlobalSection
 EndGlobal

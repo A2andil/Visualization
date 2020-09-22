@@ -27,3 +27,19 @@ C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Release\V
 C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Release\Visualization.Properties.Resources.resources
 C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Release\Visualization.selection_sort.resources
 C:\Users\Ahmad Kandil\Documents\GitHub\Visualization\Visualization\obj\Release\Visualization.csproj.GenerateResource.Cache
+C:\Users\A2andil\Github\Visualization\Visualization\bin\Release\Visualization.exe.config
+C:\Users\A2andil\Github\Visualization\Visualization\bin\Release\Visualization.exe
+C:\Users\A2andil\Github\Visualization\Visualization\bin\Release\Visualization.pdb
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.csprojAssemblyReference.cache
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.buble_sort.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.categories.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.insert_list.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.linear_search.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.sorting.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.insertion_sort.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.Properties.Resources.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.selection_sort.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.csproj.GenerateResource.cache
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.csproj.CoreCompileInputs.cache
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.exe
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Release\Visualization.pdb

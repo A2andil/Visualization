@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wz/tx6xCthwunzHgNPbQDXaaLra4zZR7T1ThFYnglXSoEWkcH1O8+bzac48TOpCX3rqGL/tPOXAT2Pcpp+uOEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\A2andil\\Github\\Visualization\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A2andil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\A2andil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
