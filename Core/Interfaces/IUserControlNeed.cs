@@ -6,12 +6,12 @@ using System.Windows.Forms;
 
 namespace Core.Interfaces
 {
-    public interface UserControlNeed
+    public interface IUserControlNeed
     {
         public void Random();
 
         public void DrawElements();
 
-        public void CreateElements();
+        public TextBox CreateElement(int width, int val, int idx);
     }
 }

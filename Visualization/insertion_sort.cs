@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 
+
 namespace Visualization
 {
     public partial class insertion_sort : user_control_need

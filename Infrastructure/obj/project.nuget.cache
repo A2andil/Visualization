@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZDF2hiL5xps9Yzj72s4IeyENf1e+gU4lNIXdt1HFuN2n5dpteBWhfM01XRrQl04Hrsr1t3Mr0x5/vAGrIHss7Q==",
+  "dgSpecHash": "kG5RNdp6Z9CjyWyfx4+kfjiyUtGRi1BoqH/Yoe4j+YDAhJ3wdP8cA1o7zsI7Pf8Z5vuu3FEZDdh5jmMQFI8+Bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\A2andil\\Github\\Visualization\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A2andil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\A2andil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\A2andil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\A2andil\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
