@@ -15,6 +15,7 @@ namespace Visualization
     public partial class insertion_sort : user_control_need
 
     {
+        
         public static bool is_run = false, current = false;
 
         public insertion_sort(List<int> lst)

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Infrastructure.Repositories
 {
-    public class UserControlNeed : UserControl, IUserControlNeed
+    public class UserControlNeed : UserControl
     {
         public List<int> list = new List<int>();
         public List<TextBox> listBox = new List<TextBox>();
@@ -44,7 +44,7 @@ namespace Infrastructure.Repositories
             }
         }
 
-        public void Random()
+        public void Shuffle()
         {
             this.Controls.Clear();
             Random rand = new Random();

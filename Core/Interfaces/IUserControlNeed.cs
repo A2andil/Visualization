@@ -8,7 +8,7 @@ namespace Core.Interfaces
 {
     public interface IUserControlNeed
     {
-        public void Random();
+        public void Shuffle();
 
         public void DrawElements();
 
