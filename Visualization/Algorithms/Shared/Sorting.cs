@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Visualization
 {
-    public partial class sorting : Form
+    public partial class Sorting : Form
     {
         public static List<int> s_lst = new List<int>();
         public static categories current_cat = null;
         insertion_sort in_sort;
         selection_sort sl_sort;
         buble_sort bl_sort;
-        public sorting()
+        public Sorting()
         {
             InitializeComponent();
         }

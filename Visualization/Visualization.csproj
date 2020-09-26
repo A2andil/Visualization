@@ -46,69 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="buble_sort.cs">
+    <Compile Include="Algorithms\Sorting\BubleSort.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="buble_sort.Designer.cs">
-      <DependentUpon>buble_sort.cs</DependentUpon>
+    <Compile Include="Algorithms\Sorting\BubleSort.Designer.cs">
+      <DependentUpon>BubleSort.cs</DependentUpon>
     </Compile>
-    <Compile Include="categories.cs">
+    <Compile Include="Algorithms\Shared\Categories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="categories.Designer.cs">
-      <DependentUpon>categories.cs</DependentUpon>
+    <Compile Include="Algorithms\Shared\Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
     </Compile>
-    <Compile Include="insert_list.cs">
+    <Compile Include="Algorithms\Shared\InsertList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="insert_list.Designer.cs">
-      <DependentUpon>insert_list.cs</DependentUpon>
+    <Compile Include="Algorithms\Shared\InsertList.Designer.cs">
+      <DependentUpon>InsertList.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IUserControlNeed.cs" />
-    <Compile Include="linear_search.cs">
+    <Compile Include="Algorithms\Searching\linear_search.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="linear_search.Designer.cs">
+    <Compile Include="Algorithms\Searching\linear_search.Designer.cs">
       <DependentUpon>linear_search.cs</DependentUpon>
     </Compile>
-    <Compile Include="sorting.cs">
+    <Compile Include="Algorithms\Shared\Sorting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="sorting.Designer.cs">
-      <DependentUpon>sorting.cs</DependentUpon>
+    <Compile Include="Algorithms\Shared\Sorting.Designer.cs">
+      <DependentUpon>Sorting.cs</DependentUpon>
     </Compile>
-    <Compile Include="insertion_sort.cs">
+    <Compile Include="Algorithms\Sorting\InsertionSort.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="insertion_sort.Designer.cs">
-      <DependentUpon>insertion_sort.cs</DependentUpon>
+    <Compile Include="Algorithms\Sorting\InsertionSort.Designer.cs">
+      <DependentUpon>InsertionSort.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="selection_sort.cs" />
-    <Compile Include="selection_sort.Designer.cs">
-      <DependentUpon>selection_sort.cs</DependentUpon>
+    <Compile Include="Algorithms\Sorting\SelectionSort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Sorting\SelectionSort.Designer.cs">
+      <DependentUpon>SelectionSort.cs</DependentUpon>
     </Compile>
     <Compile Include="Repositories\UserControlNeed.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <EmbeddedResource Include="buble_sort.resx">
-      <DependentUpon>buble_sort.cs</DependentUpon>
+    <EmbeddedResource Include="Algorithms\Sorting\BubleSort.resx">
+      <DependentUpon>BubleSort.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="categories.resx">
-      <DependentUpon>categories.cs</DependentUpon>
+    <EmbeddedResource Include="Algorithms\Shared\Categories.resx">
+      <DependentUpon>Categories.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="insert_list.resx">
-      <DependentUpon>insert_list.cs</DependentUpon>
+    <EmbeddedResource Include="Algorithms\Shared\InsertList.resx">
+      <DependentUpon>InsertList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="linear_search.resx">
+    <EmbeddedResource Include="Algorithms\Searching\linear_search.resx">
       <DependentUpon>linear_search.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="sorting.resx">
-      <DependentUpon>sorting.cs</DependentUpon>
+    <EmbeddedResource Include="Algorithms\Shared\Sorting.resx">
+      <DependentUpon>Sorting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="insertion_sort.resx">
-      <DependentUpon>insertion_sort.cs</DependentUpon>
+    <EmbeddedResource Include="Algorithms\Sorting\InsertionSort.resx">
+      <DependentUpon>InsertionSort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,8 +121,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="selection_sort.resx">
-      <DependentUpon>selection_sort.cs</DependentUpon>
+    <EmbeddedResource Include="Algorithms\Sorting\SelectionSort.resx">
+      <DependentUpon>SelectionSort.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -136,7 +138,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Algorithms\" />
     <Folder Include="DataStructures\" />
     <Folder Include="Helpers\" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 ﻿namespace Visualization
 {
-    partial class sorting
+    partial class Sorting
     {
         /// <summary>
         /// Required designer variable.

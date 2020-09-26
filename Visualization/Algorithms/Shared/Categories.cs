@@ -48,10 +48,10 @@ namespace Visualization
                             buble_sort.current = true;
                             break;
                     }
-                    sorting srt = new sorting();
+                    Sorting srt = new Sorting();
                     srt.Show();
                     this.Hide();
-                    sorting.current_cat = this;
+                    Sorting.current_cat = this;
                     break;
             }
         }
