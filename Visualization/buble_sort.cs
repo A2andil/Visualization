@@ -11,7 +11,7 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class buble_sort : user_control_need
+    public partial class buble_sort : UserControlNeed
     {
         public static bool is_run = false, current = false;
 
@@ -20,12 +20,12 @@ namespace Visualization
             InitializeComponent();
             this.Size = new Size(1190, 377); is_run = false;
             for (int j = 0; j < lst.Count; j++) list.Add(lst[j]);
-            draw_elements();
+            DrawElements();
         }
         public void start()
         {
-            thrd = new Thread(new ThreadStart(update));
-            thrd.Start();
+            thread = new Thread(new ThreadStart(update));
+            thread.Start();
             is_run = true;
         }
 
@@ -40,33 +40,33 @@ namespace Visualization
                 {
                     if (j == 0)
                     {
-                        lst_bx[0].BackColor = Color.Orange;
+                        listBox[0].BackColor = Color.Orange;
                         Thread.Sleep(period);
-                        lst_bx[0].BackColor = Color.Red;
+                        listBox[0].BackColor = Color.Red;
                     }
                     int idx = j + 1;
                     if (list[j] > list[j + 1])
                     {
-                        int x = list[j], j_x = lst_bx[j].Location.X, j_xp = lst_bx[j + 1].Location.X;
+                        int x = list[j], j_x = listBox[j].Location.X, j_xp = listBox[j + 1].Location.X;
                         list[j] = list[j + 1];
                         list[j + 1] = x;
-                        TextBox s = lst_bx[j];
-                        lst_bx[j] = lst_bx[j + 1];
-                        lst_bx[j + 1] = s;
-                        lst_bx[j + 1].Location = new Point(j_xp, lst_bx[j + 1].Location.Y);
-                        lst_bx[j].Location = new Point(j_x, lst_bx[j].Location.Y);
+                        TextBox s = listBox[j];
+                        listBox[j] = listBox[j + 1];
+                        listBox[j + 1] = s;
+                        listBox[j + 1].Location = new Point(j_xp, listBox[j + 1].Location.Y);
+                        listBox[j].Location = new Point(j_x, listBox[j].Location.Y);
                         swap = true;
                     }
-                    lst_bx[idx].BackColor = Color.Orange;
+                    listBox[idx].BackColor = Color.Orange;
                     Thread.Sleep(period);
-                    lst_bx[idx].BackColor = Color.Red;
+                    listBox[idx].BackColor = Color.Red;
                 }
-                lst_bx[z].BackColor = Color.Green;
+                listBox[z].BackColor = Color.Green;
                 z--;
             } while (swap && is_run);
             Thread.Sleep(period);
             for (int i = z; i >= 0; i--)
-                lst_bx[i].BackColor = Color.Green;
+                listBox[i].BackColor = Color.Green;
             is_run = false;
         }
     }

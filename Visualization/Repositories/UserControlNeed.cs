@@ -1,36 +1,21 @@
-﻿using Core.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using Visualization.Interfaces;
 
-namespace Infrastructure.Repositories
+namespace Visualization
 {
-    public class UserControlNeed : UserControl
+    public class UserControlNeed : UserControl, IUserControlNeed
     {
         public List<int> list = new List<int>();
         public List<TextBox> listBox = new List<TextBox>();
         public static int period = 100;
-        public Thread currentThread = null;
-
-        public TextBox CreateElement(int width, int val, int idx)
-        {
-
-            TextBox text = new TextBox();
-            text.Multiline = true;
-            text.ReadOnly = true;
-            text.ForeColor = Color.White;
-            text.BackColor = Color.Red;
-            text.Text = val.ToString();
-            text.Size = new Size(width, val * 10 + 30);
-            text.Location = new Point(idx * (width + 5) + 5, 300 - val * 10);
-            text.MaxLength = 4;
-            //text.Font = new Font(text.Font.FontFamily, 14);
-            text.TextAlign = HorizontalAlignment.Center;
-            return text;
-        }
+        public Thread thread = null;
 
         public void DrawElements()
         {
@@ -42,6 +27,22 @@ namespace Infrastructure.Repositories
                 listBox.Add(text);
                 this.Controls.Add(text);
             }
+        }
+
+        public TextBox CreateElement(int width, int val, int idx)
+        {
+            TextBox text = new TextBox();
+            text.Multiline = true;
+            text.ReadOnly = true;
+            text.ForeColor = Color.White;
+            text.BackColor = Color.Red;
+            text.Text = val.ToString();
+            text.Size = new Size(width, val * 10 + 30);
+            text.Location = new Point(idx * (width + 5) + 5, 300 - val * 10);
+            text.MaxLength = 4;
+            text.Font = new Font(text.Font.FontFamily, 14);
+            text.TextAlign = HorizontalAlignment.Center;
+            return text;
         }
 
         public void Shuffle()

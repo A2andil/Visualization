@@ -32,7 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,6 +64,7 @@
     <Compile Include="insert_list.Designer.cs">
       <DependentUpon>insert_list.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IUserControlNeed.cs" />
     <Compile Include="linear_search.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,13 +85,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="selection_sort.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="selection_sort.cs" />
     <Compile Include="selection_sort.Designer.cs">
       <DependentUpon>selection_sort.cs</DependentUpon>
     </Compile>
-    <Compile Include="user_control_need.cs">
+    <Compile Include="Repositories\UserControlNeed.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <EmbeddedResource Include="buble_sort.resx">
@@ -135,10 +136,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
-      <Project>{0F48C0F7-9822-4B2A-B776-C47637797FB9}</Project>
-      <Name>Infrastructure</Name>
-    </ProjectReference>
+    <Folder Include="Algorithms\" />
+    <Folder Include="DataStructures\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
