@@ -1,6 +1,6 @@
 ﻿namespace Visualization
 {
-    partial class categories
+    partial class Categories
     {
         /// <summary>
         /// Required designer variable.

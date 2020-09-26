@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Visualization
 {
-    public partial class categories : Form
+    public partial class Categories : Form
     {
         Dictionary<string, List<string>> map = new Dictionary<string, List<string>>();
-        public categories()
+        public Categories()
         {
             InitializeComponent();
             map.Add("Search Algorithms", new List<string>() { "linear search", "binary search" });
