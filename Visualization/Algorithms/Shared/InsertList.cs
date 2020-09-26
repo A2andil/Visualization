@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Visualization
 {
-    public partial class insert_list : Form
+    public partial class InsertList : Form
     {
         public static Sorting current_sort = null;
-        public insert_list()
+        public InsertList()
         {
             InitializeComponent();
         }

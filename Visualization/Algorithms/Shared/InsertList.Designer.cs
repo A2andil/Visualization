@@ -1,6 +1,6 @@
 ﻿namespace Visualization
 {
-    partial class insert_list
+    partial class InsertList
     {
         /// <summary>
         /// Required designer variable.
@@ -72,7 +72,7 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // insert_list
+            // InsertList
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 39F);
@@ -85,9 +85,9 @@
             this.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
-            this.Name = "insert_list";
+            this.Name = "InsertList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "insert_list";
+            this.Text = "InsertList";
             this.ResumeLayout(false);
             this.PerformLayout();
 

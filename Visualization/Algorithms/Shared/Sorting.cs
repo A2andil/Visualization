@@ -100,9 +100,9 @@ namespace Visualization
 
         private void button1_Click(object sender, EventArgs e)
         {
-            insert_list in_lst = new insert_list();
+            InsertList in_lst = new InsertList();
             in_lst.Show();
-            insert_list.current_sort = this;
+            InsertList.current_sort = this;
             this.Enabled = false;
         }
     }
