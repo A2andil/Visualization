@@ -28,17 +28,17 @@ namespace Visualization
                     {
                         case "insertion sort":
                             InsertionSort.current = true;
-                            selection_sort.current = false;
+                            SelectionSort.current = false;
                             BubleSort.current = false;
                             break;
                         case "selection sort":
                             InsertionSort.current = false;
-                            selection_sort.current = true;
+                            SelectionSort.current = true;
                             BubleSort.current = false;
                             break;
                         case "buble sort":
                             InsertionSort.current = false;
-                            selection_sort.current = false;
+                            SelectionSort.current = false;
                             BubleSort.current = true;
                             break;
                     }

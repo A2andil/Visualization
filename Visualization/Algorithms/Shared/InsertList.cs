@@ -41,7 +41,7 @@ namespace Visualization
                         return;
                     }
                 }
-                if (selection_sort.current && !selection_sort.is_run) current_sort.selection(Sorting.s_lst);
+                if (SelectionSort.current && !SelectionSort.is_run) current_sort.selection(Sorting.s_lst);
                 else if (BubleSort.current && !BubleSort.is_run) current_sort.buble(Sorting.s_lst);
                 else if (InsertionSort.current && !InsertionSort.is_run) current_sort.insertion(Sorting.s_lst);
             }

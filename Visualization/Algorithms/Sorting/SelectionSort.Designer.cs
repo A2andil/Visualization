@@ -1,6 +1,6 @@
 ﻿namespace Visualization
 {
-    partial class selection_sort
+    partial class SelectionSort
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // selection_sort
+            // SelectionSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 48F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Font = new System.Drawing.Font("Andalus", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8, 11, 8, 11);
-            this.Name = "selection_sort";
+            this.Name = "SelectionSort";
             this.Size = new System.Drawing.Size(425, 554);
             this.ResumeLayout(false);
 

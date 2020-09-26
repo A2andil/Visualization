@@ -35,7 +35,6 @@ C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.cate
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.linear_search.resources
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.Sorting.resources
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.Properties.Resources.resources
-C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.selection_sort.resources
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.csproj.GenerateResource.cache
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.csproj.CoreCompileInputs.cache
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.exe
@@ -43,3 +42,4 @@ C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.pdb
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.InsertList.resources
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.BubleSort.resources
 C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.InsertionSort.resources
+C:\Users\A2andil\Github\Visualization\Visualization\obj\Debug\Visualization.SelectionSort.resources

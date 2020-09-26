@@ -11,11 +11,11 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class selection_sort : UserControlNeed
+    public partial class SelectionSort : UserControlNeed
     {
         public static bool is_run = false, current = false;
 
-        public selection_sort(List<int> lst)
+        public SelectionSort(List<int> lst)
         {
             InitializeComponent();
             this.Size = new Size(1190, 377); is_run = false;
