@@ -29,17 +29,17 @@ namespace Visualization
                         case "insertion sort":
                             insertion_sort.current = true;
                             selection_sort.current = false;
-                            buble_sort.current = false;
+                            BubleSort.current = false;
                             break;
                         case "selection sort":
                             insertion_sort.current = false;
                             selection_sort.current = true;
-                            buble_sort.current = false;
+                            BubleSort.current = false;
                             break;
                         case "buble sort":
                             insertion_sort.current = false;
                             selection_sort.current = false;
-                            buble_sort.current = true;
+                            BubleSort.current = true;
                             break;
                     }
                     Sorting srt = new Sorting();

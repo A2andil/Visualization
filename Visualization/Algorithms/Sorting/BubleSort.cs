@@ -11,11 +11,11 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class buble_sort : UserControlNeed
+    public partial class BubleSort : UserControlNeed
     {
         public static bool is_run = false, current = false;
 
-        public buble_sort(List<int> lst)
+        public BubleSort(List<int> lst)
         {
             InitializeComponent();
             this.Size = new Size(1190, 377); is_run = false;

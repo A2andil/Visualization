@@ -17,7 +17,7 @@ namespace Visualization
         public static Categories current_cat = null;
         insertion_sort in_sort;
         selection_sort sl_sort;
-        buble_sort bl_sort;
+        BubleSort bl_sort;
         public Sorting()
         {
             InitializeComponent();
@@ -27,7 +27,7 @@ namespace Visualization
         {
             if (current_cat != null) current_cat.Show();
             insertion_sort.is_run = false;
-            buble_sort.is_run = false;
+            BubleSort.is_run = false;
             selection_sort.is_run = false;
             Close();
         }
@@ -56,18 +56,18 @@ namespace Visualization
 
         public void buble(List<int> lst)
         {
-            if (!buble_sort.is_run)
+            if (!BubleSort.is_run)
             {
                 label2.Text = "Algorithm : buble sort";
                 panel1.Controls.Clear();
-                bl_sort = new buble_sort(lst);
+                bl_sort = new BubleSort(lst);
                 panel1.Controls.Add(bl_sort);
             }
         }
         private void btn_suffle_Click(object sender, EventArgs e)
         {
             if (selection_sort.current && !selection_sort.is_run) selection(shuffle());
-            else if (buble_sort.current && !buble_sort.is_run) buble(shuffle());
+            else if (BubleSort.current && !BubleSort.is_run) buble(shuffle());
             else if (insertion_sort.current && !insertion_sort.is_run) insertion(shuffle());
         }
 
@@ -89,7 +89,7 @@ namespace Visualization
         private void btn_start_Click(object sender, EventArgs e)
         {
             if (selection_sort.current && !selection_sort.is_run && sl_sort != null) sl_sort.start();
-            else if (buble_sort.current && !buble_sort.is_run && bl_sort != null) bl_sort.start();
+            else if (BubleSort.current && !BubleSort.is_run && bl_sort != null) bl_sort.start();
             else if (insertion_sort.current && !insertion_sort.is_run && in_sort != null) in_sort.start();
         }
 
