@@ -27,17 +27,17 @@ namespace Visualization
                     switch (comboBox2.SelectedItem.ToString())
                     {
                         case "insertion sort":
-                            insertion_sort.current = true;
+                            InsertionSort.current = true;
                             selection_sort.current = false;
                             BubleSort.current = false;
                             break;
                         case "selection sort":
-                            insertion_sort.current = false;
+                            InsertionSort.current = false;
                             selection_sort.current = true;
                             BubleSort.current = false;
                             break;
                         case "buble sort":
-                            insertion_sort.current = false;
+                            InsertionSort.current = false;
                             selection_sort.current = false;
                             BubleSort.current = true;
                             break;

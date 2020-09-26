@@ -6,13 +6,13 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class insertion_sort : UserControlNeed
+    public partial class InsertionSort : UserControlNeed
 
     {
         
         public static bool is_run = false, current = false;
 
-        public insertion_sort(List<int> lst)
+        public InsertionSort(List<int> lst)
         {
             InitializeComponent();
             this.Size = new Size(1190, 377); is_run = false;

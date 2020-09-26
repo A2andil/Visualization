@@ -1,6 +1,6 @@
 ﻿namespace Visualization
 {
-    partial class insertion_sort
+    partial class InsertionSort
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // insertion_sort
+            // InsertionSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 48F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Font = new System.Drawing.Font("Andalus", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8, 11, 8, 11);
-            this.Name = "insertion_sort";
+            this.Name = "InsertionSort";
             this.Size = new System.Drawing.Size(425, 554);
             this.ResumeLayout(false);
 

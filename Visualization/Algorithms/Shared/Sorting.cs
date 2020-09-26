@@ -15,7 +15,7 @@ namespace Visualization
     {
         public static List<int> s_lst = new List<int>();
         public static Categories current_cat = null;
-        insertion_sort in_sort;
+        InsertionSort in_sort;
         selection_sort sl_sort;
         BubleSort bl_sort;
         public Sorting()
@@ -26,18 +26,18 @@ namespace Visualization
         private void btn_close_Click(object sender, EventArgs e)
         {
             if (current_cat != null) current_cat.Show();
-            insertion_sort.is_run = false;
+            InsertionSort.is_run = false;
             BubleSort.is_run = false;
             selection_sort.is_run = false;
             Close();
         }
         public void insertion(List<int> lst)
         {
-            if (!insertion_sort.is_run)
+            if (!InsertionSort.is_run)
             {
                 label2.Text = "Algorithm : insertion sort";
                 panel1.Controls.Clear();
-                in_sort = new insertion_sort(lst);
+                in_sort = new InsertionSort(lst);
                 in_sort.Shuffle();
                 panel1.Controls.Add(in_sort);
             }
@@ -68,7 +68,7 @@ namespace Visualization
         {
             if (selection_sort.current && !selection_sort.is_run) selection(shuffle());
             else if (BubleSort.current && !BubleSort.is_run) buble(shuffle());
-            else if (insertion_sort.current && !insertion_sort.is_run) insertion(shuffle());
+            else if (InsertionSort.current && !InsertionSort.is_run) insertion(shuffle());
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -90,7 +90,7 @@ namespace Visualization
         {
             if (selection_sort.current && !selection_sort.is_run && sl_sort != null) sl_sort.start();
             else if (BubleSort.current && !BubleSort.is_run && bl_sort != null) bl_sort.start();
-            else if (insertion_sort.current && !insertion_sort.is_run && in_sort != null) in_sort.start();
+            else if (InsertionSort.current && !InsertionSort.is_run && in_sort != null) in_sort.start();
         }
 
         private void period_ValueChanged(object sender, EventArgs e)
