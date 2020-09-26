@@ -11,7 +11,7 @@ using System.Threading;
 
 namespace Visualization
 {
-    public partial class selection_sort : user_control_need
+    public partial class selection_sort : UserControlNeed
     {
         public static bool is_run = false, current = false;
 
@@ -20,13 +20,13 @@ namespace Visualization
             InitializeComponent();
             this.Size = new Size(1190, 377); is_run = false;
             for (int j = 0; j < lst.Count; j++) list.Add(lst[j]);
-            draw_elements();
+            DrawElements();
         }
 
         public void start()
         {
-            thrd = new Thread(new ThreadStart(update));
-            thrd.Start();
+            thread = new Thread(new ThreadStart(update));
+            thread.Start();
             is_run = true;
         }
 
@@ -35,31 +35,31 @@ namespace Visualization
             for (int i = 0; i < list.Count && is_run; i++)
             {
                 int min_idx = i, x = list[i];
-                lst_bx[i].BackColor = Color.Gold;
+                listBox[i].BackColor = Color.Gold;
                 for (int j = i + 1; j < list.Count; j++)
                 {
-                    lst_bx[j].BackColor = Color.Orange;
+                    listBox[j].BackColor = Color.Orange;
                     if (list[j] < x)
                     {
-                        lst_bx[min_idx].BackColor = Color.Red;
-                        lst_bx[j].BackColor = Color.Gold;
+                        listBox[min_idx].BackColor = Color.Red;
+                        listBox[j].BackColor = Color.Gold;
                         x = list[j];
                         min_idx = j;
                     }
                     Thread.Sleep(period);
-                    if (lst_bx[j].BackColor != Color.Gold)
-                        lst_bx[j].BackColor = Color.Red;
+                    if (listBox[j].BackColor != Color.Gold)
+                        listBox[j].BackColor = Color.Red;
                 }
                 list[min_idx] = list[i];
                 list[i] = x;
-                TextBox s = lst_bx[i];
-                lst_bx[i] = lst_bx[min_idx];
-                lst_bx[min_idx] = s;
-                int m_x = lst_bx[i].Location.X, i_x = lst_bx[min_idx].Location.X;
-                lst_bx[i].Location = new Point(i_x, lst_bx[i].Location.Y);
-                lst_bx[min_idx].Location = new Point(m_x, lst_bx[min_idx].Location.Y);
+                TextBox s = listBox[i];
+                listBox[i] = listBox[min_idx];
+                listBox[min_idx] = s;
+                int m_x = listBox[i].Location.X, i_x = listBox[min_idx].Location.X;
+                listBox[i].Location = new Point(i_x, listBox[i].Location.Y);
+                listBox[min_idx].Location = new Point(m_x, listBox[min_idx].Location.Y);
                 Thread.Sleep(period);
-                lst_bx[i].BackColor = Color.Green;
+                listBox[i].BackColor = Color.Green;
             }
             is_run = false;
         }

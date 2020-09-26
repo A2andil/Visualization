@@ -38,7 +38,7 @@ namespace Visualization
                 label2.Text = "Algorithm : insertion sort";
                 panel1.Controls.Clear();
                 in_sort = new insertion_sort(lst);
-                in_sort.random();
+                in_sort.Shuffle();
                 panel1.Controls.Add(in_sort);
             }
         }
@@ -73,7 +73,7 @@ namespace Visualization
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            period.Value = user_control_need.period;
+            period.Value = UserControlNeed.period;
         }
 
         List<int> shuffle()
@@ -95,7 +95,7 @@ namespace Visualization
 
         private void period_ValueChanged(object sender, EventArgs e)
         {
-            user_control_need.period = int.Parse(period.Value.ToString());
+            UserControlNeed.period = int.Parse(period.Value.ToString());
         }
 
         private void button1_Click(object sender, EventArgs e)
