@@ -44,7 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Andalus", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(41, 434);
+            this.label1.Location = new System.Drawing.Point(24, 434);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 38);
@@ -55,7 +55,7 @@
             // 
             this.period.Font = new System.Drawing.Font("Andalus", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.period.ForeColor = System.Drawing.Color.Red;
-            this.period.Location = new System.Drawing.Point(183, 439);
+            this.period.Location = new System.Drawing.Point(166, 439);
             this.period.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.period.Maximum = new decimal(new int[] {
             3000,
@@ -147,7 +147,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Sorting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 48F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -163,7 +163,7 @@
             this.Font = new System.Drawing.Font("Andalus", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(8, 11, 8, 11);
-            this.Name = "Form1";
+            this.Name = "Sorting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
